@@ -22,7 +22,7 @@ function varargout = gui(varargin)
 
 % Edit the above text to modify the response to help gui
 
-% Last Modified by GUIDE v2.5 04-Jul-2017 10:46:50
+% Last Modified by GUIDE v2.5 04-Jul-2017 11:50:50
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -73,3 +73,10 @@ function varargout = gui_OutputFcn(hObject, eventdata, handles)
 
 % Get default command line output from handles structure
 varargout{1} = handles.output;
+
+
+% --- Executes on button press in pushbutton6.
+function pushbutton6_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton6 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
